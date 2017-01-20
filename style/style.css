@@ -1,0 +1,97 @@
+
+
+body{
+
+	background-color: white;
+	font-family: helvetica;
+	margin: 0px;
+}
+main{
+	padding: 40px;
+}
+
+nav ul{
+	list-style: none;
+	display: block;
+	background-color: #383838;
+	margin:0px;
+
+}
+nav li{
+	display: inline-block;
+	text-align: center;
+	margin: 0px;
+	padding:5px;
+}
+
+nav li:hover{
+	background-color: #707070;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+nav a:visited{
+	text-decoration: none;
+	color: #898989;
+}
+
+
+#img-moto{
+	display: block;
+	width: 30%;
+	margin: auto;
+	padding: 15px;
+	border: 3px solid #383838;
+}
+
+#follow-div{
+	background-image: url(../images/textureshadowhouse.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	opacity: .8;
+	/*
+	image info:
+	 http://www.fansshare.com/gallery/photos/12995801/black-grunge-textureshadowhouse-creations-grunge-texture-set-baby-knit-and-love-tpd-qxup-grunge/ */
+	width:100%;
+	padding-top:1px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+
+
+
+
+/* General CSS */
+.center-text{
+	text-align: center;
+}
+
+.em{
+	font-style: italic;
+}
+.bottom{
+	margin-bottom:0px;
+}
+@media only screen and (max-width: 540px) {
+    #img-moto{
+	width: 100%;
+	border:none;
+	}
+	.block{
+		padding:3px;
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
