@@ -4,59 +4,66 @@
 	<title>My Personal Website</title>
 	<link rel="stylesheet" href="style/style.css">
 </head>
-<body>
+	<body>
 
-	<nav>
-		<ul>
-			<li><a href="./index.html">Home</a></li>
-			<li><a href="./contact.html">Contact</a></li>
-		</ul>
-	</nav>
-	<h1>My Personal Website</h1>
-	<p> Here you will find some hobbies, interests and parts of my porfolio</p>
-	<img src="./images/enduro.jpg" alt="enduro.jpg">
-	<hr>
-
-	<h2>Hobbies</h2>
-	<ul>
-		<li>Enduros</li>
-		<li>Cars</li>
-		<li>Bikes</li>
-	</ul>
-	<hr>
-
-	<h2>Personal Interests</h2>
-	<ul>
-		<li>Businesses</li>
-		<li>Startups</li>
-		<li>Self-improvement</li>
-		<li>Excercise</li>
-	</ul>
-	<hr>
-
-	<h2>Portfolio</h2>
-	<em>Here is where my porfolio be</em> <br>
-
-	<p>Here is an example of a good portfolio a</p>
-
-	<a href="http://cihadturhan.com">Cihad Portfolio</a>
-	<hr>
-	
-	<h4>Follow me!</h4>
-	<p>Subscribe to get my latest posts.</p>
-	<form action="welcome.html">
-		<div>
-			<label>Name:</label>
-			<input type="text" name="name">
-		</div>
-		<div>
-			<label>Email:</label>
-			<input type="email" name="email">
-		</div>
+		<nav>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./contact.html">Contact</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</nav>
+		<h1 class="mpw-h1 center-text">My Personal Website</h1>
+		<p class="center-text em"> Here you will find some hobbies, interests and parts of my porfolio</p>
+		<img id="img-moto" src="./images/enduro.jpg" alt="enduro.jpg">
 		
-		<button type="submit">Subscribe!</button>
+		<main>
+			<h2>Hobbies</h2>
+			<ul>
+				<li>Enduros</li>
+				<li>Cars</li>
+				<li>Bikes</li>
+			</ul>
+			<hr>
+
+			<h2>Personal Interests</h2>
+			<ul>
+				<li>Businesses</li>
+				<li>Startups</li>
+				<li>Self-improvement</li>
+				<li>Excercise</li>
+			</ul>
+			<hr>
+
+			<h2>Portfolio</h2>
+			<em>Here is where my porfolio be</em> <br>
+
+			<p>Here is an example of a good portfolio a</p>
+
+			<a href="http://cihadturhan.com">Cihad Portfolio</a>
+			
+		</main>
+			<div id="follow-div">
+				<h4>Follow me!</h4>
+				<p>Subscribe to get my latest posts.</p>
+				<form action="welcome.html">
+					<div>
+						<label class="block">Name:</label>
+						<input type="text" name="name">
+						<label class="block">Email:</label>
+						<input type="email" name="email">
+					</div>
+					
+					<br>
+					
+					<button type="submit">Subscribe!</button>
+					
+				</form>
+			</div>
+			
 		
-	</form>
-	<hr>
-</body>
+		<footer>
+			<p class="center-text"><em>All rights reserved, created by <a href="https://github.com/litola">litola</a> 2017</em></p>			
+		</footer>
+	</body>
 </html>
